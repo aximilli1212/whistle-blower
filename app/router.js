@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('whitle-blowers');
+  this.route('meetups');
 });
 
 export default Router;
