@@ -1,10 +1,4 @@
-// import Service from '@ember/service';
-//
-// export default Service.extend({
-// });
-//
-
-import Ember from 'ember';
+import Service from '@ember/service';
 
 import axios from 'npm:axios';
 
@@ -12,7 +6,7 @@ const ACCESS_TOKEN_KEY = 'access_token';
 
 const BASE_URL = 'http://localhost:3333';
 
-export default Ember.Service.extend({
+export default Service.extend({
 
   getMeetups() {
 
